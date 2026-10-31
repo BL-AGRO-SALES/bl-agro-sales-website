@@ -66,7 +66,16 @@ label{display:block;font-size:13px;font-weight:700;margin:11px 0 5px}input,selec
 import {initializeApp} from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
 import {getAuth,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,signOut} from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
 import {getFirestore,collection,doc,setDoc,addDoc,getDoc,getDocs,updateDoc,deleteDoc,query,where,orderBy,serverTimestamp} from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
-const firebaseConfig={apiKey:"PASTE_API_KEY",authDomain:"PASTE_PROJECT_ID.firebaseapp.com",projectId:"PASTE_PROJECT_ID",storageBucket:"PASTE_PROJECT_ID.firebasestorage.app",messagingSenderId:"PASTE_SENDER_ID",appId:"PASTE_APP_ID"};
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAKA5phnm0IB7s23CTRrbYBKrQtS45Z6xE",
+  authDomain: "bl-agro-sales.firebaseapp.com",
+  projectId: "bl-agro-sales",
+  storageBucket: "bl-agro-sales.firebasestorage.app",
+  messagingSenderId: "57470712067",
+  appId: "1:57470712067:web:5aea23b865148adf3c1136",
+  measurementId: "G-TQSQ3MW9L9"
+};
 const SHOP={phone:"91XXXXXXXXXX",whatsapp:"91XXXXXXXXXX"};
 // Add your own Firebase Auth UID here AND in firestore.rules; don't use a customer's UID.
 const ADMIN_UIDS=["PASTE_OWNER_FIREBASE_UID_HERE"];
